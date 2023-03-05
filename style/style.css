@@ -1,0 +1,134 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: opx;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*global class start*/
+.ti4{
+    text-indent: 4rem;
+}
+.text-center{
+    text-align: center;
+}
+/*global class end*/
+
+.header{
+    text-align: center;
+    font-size: 48px;
+    padding: 30px;
+}
+
+.blue{
+    color: #3E45E8;
+}
+
+.yellow{
+    color: #E8C23E;
+}
+
+.banner{
+    min-height: 766px;
+    background-image: url("/image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 240px 80px;
+}
+
+.banner_content{
+    background-image: url(/image/flag.png);
+    background-repeat: no-repeat;
+    white-space: pre-line;
+    font-size: 48px;
+    line-height: 157.3%;
+    padding-left: 61px;
+    color: #FFFFFF;
+}
+
+.titel{
+    font-size: 2.5rem;
+}
+
+.cards{
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    min-height: 481px;
+    border: 5px solid #0D095F;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-bottom: 75px;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.card_titel, .card_subtitel{
+    margin-left: 13px;
+}
+
+.card_titel{
+    color: #0072DB;
+}
+
+.card_subtitel{
+    color: #FF9900;
+}
+
+.titel-map-uk{
+    width: 600px;
+    margin: 2rem auto;
+    border-bottom: 7px solid #1400FF;
+    padding-bottom: 19px;
+    font-family: 'Inika', serif;
+}
+
+.btr > a{
+    display: inline-block;
+    width: 499px;
+    background-color: #2A61F0;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 50px;
+    font-family: 'Inika', serif;
+}
+
+.footer{
+   margin-top: 33px;
+    background: linear-gradient(180deg, #013235 0%, #0D0661 100%);
+    padding: 1rem;
+}
+
+.footer_titel{
+    font-size: 48px;
+}
+
+.contact{
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.contact > a{
+    color: #A89D9D;
+    text-decoration: none;
+    font-family: 'Marcellus SC', serif;
+}
+
+.padding-l-r{
+    display: inline-block;
+    padding: 0 28px;
+}
